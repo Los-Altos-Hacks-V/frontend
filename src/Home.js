@@ -13,7 +13,7 @@ class Home extends Component {
                         Meet listeners like you from all over the world.
                     </p>
                     <a
-                        href="https://accounts.spotify.com/authorize?client_id=dcf1a2dc85864c11aaf00c98daed0e8a&response_type=code&redirect_uri=https%3A%2F%2Ffrontend-o7byi3rdva-uc.a.run.app%2F%2Fspotify-auth&scope=user-read-private%20user-read-email%20user-read-recently-played"
+                        href="https://accounts.spotify.com/authorize?client_id=dcf1a2dc85864c11aaf00c98daed0e8a&response_type=code&redirect_uri=https%3A%2F%2Ffrontend-o7byi3rdva-uc.a.run.app%dashboard&scope=user-read-private%20user-read-email%20user-read-recently-played"
                         className="Login">LOG IN WITH SPOTIFY</a>
                 </header>
             </div>
