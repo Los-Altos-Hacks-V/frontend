@@ -3,11 +3,14 @@ import axios from 'axios';
 
 class SpotifyRedirect extends Component {
     async RegisterUser() {
-        console.log(window.location.href)
         let code = window.location.href.split("?")[1].slice(5)
+        console.log(code)
         let body = { code: code }
-        let sent = await axios.post('http://altego-service-o7byi3rdva-uc.a.run.app/spotify-auth', body)
-        return sent.response()
+        let headers = {
+            "Content-Type": "x-www-form-urlencoded"
+        }
+        let token = await axios.post('http://api.altego.tech/spotify-auth', body, {headers})
+        console.log(token)
         // Continue working here to send token to Dashboard Page
     }
 
