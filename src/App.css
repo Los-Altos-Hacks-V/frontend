@@ -1,0 +1,40 @@
+.App {
+  text-align: left;
+}
+
+.App-header {
+  background: linear-gradient(0deg, hsla(0, 0%, 25%, 1) 73%, hsla(0, 0%, 0%, 1) 96%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  color: white;
+}
+
+.Heading {
+  margin-bottom:0;
+  letter-spacing: 0.4vh;
+  font-size: calc(10px + 8vmin);
+  margin-left: 10vh;
+}
+
+.Desc {
+  font-size: calc(10px + 2vmin);
+  margin-left: 10vh;
+}
+
+.Login {
+  background: #1DB954;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: bold;
+  margin-left: 10vh;
+  padding: 2vh;
+  border-radius: 2vh;
+  color: white;
+  letter-spacing: 0.1vh;
+}
