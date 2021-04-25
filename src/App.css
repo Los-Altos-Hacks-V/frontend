@@ -3,11 +3,10 @@
 }
 
 .App-header {
-  background: linear-gradient(0deg, hsla(0, 0%, 25%, 1) 73%, hsla(0, 0%, 0%, 1) 96%);
+  background: linear-gradient(180deg, #181818 25.42%, rgba(255, 255, 255, 0) 131.93%), #404040;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: left;
   justify-content: center;
   color: white;
 }
@@ -31,12 +30,25 @@
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-weight: bold;
   margin-left: 10vh;
   padding: 2vh;
-  border-radius: 2vh;
+  width: 436px;
+  border-radius: 50px;
   color: white;
-  letter-spacing: 0.1vh;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  border: none;
+  transition: 0.2s;
+  text-decoration: none;
+  text-align: center;
+}
+
+.Login:hover {
+  background: #04A03B;
 }
 
 .Dashboard-header {
