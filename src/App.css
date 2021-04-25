@@ -38,3 +38,37 @@
   color: white;
   letter-spacing: 0.1vh;
 }
+
+.Dashboard-header {
+  background: linear-gradient(0deg, hsla(0, 0%, 25%, 1) 73%, hsla(0, 0%, 0%, 1) 96%);
+  min-height: 150vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  color: white;
+}
+
+.Subject {
+  margin-left: 10vh;
+  font-size: calc(10px + 2vmin);
+  margin-bottom:0;
+}
+
+.Genres {
+  margin-left: 10vh;
+  font-size: calc(10px + 2vmin);
+  margin-bottom:0;
+  margin-top:0;
+}
+
+.Artist {
+  margin-left: 10vh;
+  font-size: calc(10px + 2vmin);
+  margin-bottom: 0;
+  margin-top: 10;
+  background-color:white;
+  color: black;
+  padding: 8px;
+  padding-left: 12px;
+  max-width: 80%;
+}
